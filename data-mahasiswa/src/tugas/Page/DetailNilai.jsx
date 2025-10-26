@@ -13,7 +13,7 @@ function DetailNilai() {
     "Pengembangan Aplikasi Web": { tugas: 92, uts: 95, uas: 95 },
   };
 
-  const nilai = dataNilai[decodeURIComponent(matkul)];
+  const nilai = dataNilai[(matkul)];
   const nilaiAkhir = ((nilai.tugas + nilai.uts + nilai.uas) / 3).toFixed(2);
 
   return (

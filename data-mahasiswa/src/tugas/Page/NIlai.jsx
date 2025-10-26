@@ -22,7 +22,7 @@ function Nilai() {
               <strong>{item.matkul}</strong> <br />
               Nilai: {item.nilai}
             </div>
-            <Link to={`/nilai/${encodeURIComponent(item.matkul)}`} className="detail-link">
+            <Link to={`/nilai/${(item.matkul)}`} className="detail-link">
               Detail
             </Link>
           </li>
